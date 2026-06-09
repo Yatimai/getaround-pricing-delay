@@ -1,0 +1,24 @@
+# MLflow local tracking (large, not needed in repo)
+mlruns/
+
+# Models: trained .joblib artifacts ARE committed (needed to run the API/app).
+# Exclude only loose pickles.
+*.pkl
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Env
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
